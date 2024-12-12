@@ -55,6 +55,7 @@ const columns = [
   },
 ];
 
+// Define data for the table
 const dataSource = users.map((user) => ({
   key: user.id,
   title: <Typography.Text>{user.name}</Typography.Text>,

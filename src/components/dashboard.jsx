@@ -76,7 +76,7 @@ const Dashboard = () => {
         <div className="flex  justify-between">
           <div className="flex flex-1 p-2 items-center">
             <p className="text-slate-950 font-semibold">
-              Top user Interactions
+              Top User Interactions
             </p>
           </div>
           <div className="w-px bg-slate-400"></div>
