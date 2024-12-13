@@ -17,8 +17,7 @@ const CloneInteraction = () => {
   const silenceTimeoutRef = useRef(null);
   const isSpeakingRef = useRef(false);
 
-  const apiKey =
-    "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";
+  const apiKey = process.env.REACT_APP_OPENAI_API_KEY;
 
   // Start recording audio
   const handleStartRecording = async () => {

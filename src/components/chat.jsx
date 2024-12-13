@@ -6,8 +6,7 @@ const ChatUI = () => {
   const [isLoading, setIsLoading] = useState(false); // Loading state
   const chatContainerRef = useRef(null); // Ref for the chat container scroll
 
-  const apikey =
-    "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";
+  const apikey = process.env.REACT_APP_OPENAI_API_KEY;
 
   //Get current time
   const getCurrentTime = () => {
