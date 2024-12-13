@@ -3,7 +3,6 @@ import CloneInteraction from "./components/CloneInteraction";
 import Dashboard from "./components/dashboard";
 import HomePage from "./components/homepage";
 import Sidebar from "./components/sidebar";
-import VoiceAssistance from "./components/VoiceAssistance";
 
 import { Routes, Route } from "react-router-dom";
 
